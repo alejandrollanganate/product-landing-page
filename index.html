@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos FIS</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="page">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://fis.epn.edu.ec/images/FISlogo.jpg" alt="Logotipo de la Facultad de Sistemas de la EPN" >
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#caracteristicas" id="nav-link">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#video-container" id="nav-link">Institución</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#cursos" id="#cursos">Cursos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="mail-user">
+                <div class="contenido-mail">
+                    <h2>Cursos de gran calidad, aprende con los mejores académicos del país.</h2>
+                    <p id="mail-description">Ingrese su correo electrónico para recibir más información.</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input id="email" name="email" type="email" placeholder="Correo electrónico" required>
+                        <input id="submit" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+
+            <section id="caracteristicas" class="container">
+
+                <div class="caracteristicas-wrapper">
+                    <div class="c-icon">
+                        <i id="iconProfesor" class='fas fa-chalkboard-teacher'></i>
+                    </div>
+                    <div class="c-texto">
+                        <h2>Aprende de los mejores</h2>
+                        <p class="descripcionCaracteristica"> Los cursos son impartidos por docentes e investigadores con amplia experiencia en la enseñanza y realización de proyectos.</p>
+                    </div>
+                </div>
+
+                <div class="caracteristicas-wrapper">
+                    <div class="c-icon">
+                        <i id="iconEmpresa" class='far fa-building'></i>
+                    </div>
+                    <div class="c-texto">
+                        <h2>Proyectos reales</h2>
+                        <p class="descripcionCaracteristica">Al final de cada curso realizarás un proyecto que resolverá la necesidad de una empresa real.</p>
+                    </div>
+                </div>
+
+                <div class="caracteristicas-wrapper">
+                    <div class="c-icon">
+                        <i id="iconComputadora" class='fas fa-desktop'></i>
+                    </div>
+                    <div class="c-texto">
+                        <h2>Entorno de aprendizaje</h2>
+                        <p class="descripcionCaracteristica">Te brindamos los mejores equipos para aprender en los cursos presenciales que disponemos. </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container video" id="video-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RR3M3gp9Eoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <section id="cursos">
+                <h1 id="tituloSeccionCurso">CURSOS QUE OFERTAMOS</h1>
+                <div class="container cursos">
+                    <div id="curso1" class="cajaCurso">
+                        <h3 class="tituloCurso">Amazon Web Services</h3>
+                        <p class="cursoPrecio">$65</p>
+                        <p class="descripcionCurso">Amazon Web Services es una colección de servicios de computación en la nube que en conjunto forman una plataforma de computación en la nube.</p>
+                        <div class="container-img-curse">
+                          <img class="imagenClase" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fvamsystems.com%2FImages%2FContentImages%2F2015%2F1%2Famazon_web_services.jpg&f=1&nofb=1" alt="">
+                        </div>
+                        <div class="boton">
+                            <button class="botonComprar">Comprar</button>
+                        </div>   
+                     </div>
+
+                    <div id="curso2" class="cajaCurso">
+                        <h3 class="tituloCurso">Node.js</h3>
+                        <p class="cursoPrecio">$65</p>
+                        <p class="descripcionCurso">Node.js es un entorno en tiempo de ejecución multiplataforma basado en el motor V8 de Google.</p>
+                        <div class="container-img-curse">
+                            <img class="imagenClase" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="">
+                      </div>
+                      <div class="boton">
+                        <button class="botonComprar">Comprar</button>
+                    </div>   
+                    </div>
+
+                    <div id="curso3" class="cajaCurso">
+                        <h3 class="tituloCurso">Angular 9</h3>
+                        <p class="cursoPrecio">$20</p>
+                        <p class="descripcionCurso">Aprende a desarrollar aplicaciones web modernas de forma práctica y desde cero con el framework Angular.</p>
+                        <div class="container-img-curse">
+                            <img class="imagenClase" src="https://creativetimblog.com/blog/wp-content/uploads/2017/03/AngularJS-e1487056257254-730x410.png" alt="">
+                        </div> 
+                        <div class="boton">
+                            <button class="botonComprar">Comprar</button>
+                        </div>   
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer-page">
+            <div>Copyright 2020, FIS EPN</div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
